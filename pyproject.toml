@@ -1,0 +1,30 @@
+[project]
+name = "minifyhtml"
+version = "2023.01.29.0"
+description = "Minify html text (the simplest approach)."
+readme = "README.md"
+requires-python = "~=3.11"
+license = {file = "LICENSE"}
+authors = [{name = "Arnaldo Ono", email = "contact@onoarnaldo.com"}]
+keywords = ["html", "minify"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Code Generators"
+]
+dependencies = []
+
+[project.urls]
+homepage = "https://example.com"
+documentation = "https://readthedocs.org"
+repository = "https://github.com/me/spam.git"
+changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
+
+#[project.optional-dependencies]
+#gui = []
+#cli = []
+
+#[tool.setuptools]
+#packages = ["my_package"]
