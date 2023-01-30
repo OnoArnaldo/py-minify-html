@@ -72,3 +72,9 @@ def test_minify():
         'line 1',
         'line 2'
     ]
+
+
+def test_remove_comments():
+    assert list(remove_comments([
+        'before<!--https://page.domain.com/path/to/document/local-business-->after'
+    ])) == ['beforeafter']

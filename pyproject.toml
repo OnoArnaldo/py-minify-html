@@ -1,6 +1,6 @@
 [project]
 name = "minifyhtml"
-version = "2023.01.30.0"
+version = "2023.01.30.1"
 description = "Minify html text (the simplest approach)."
 readme = "README.md"
 requires-python = "~=3.11"
