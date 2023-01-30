@@ -1,4 +1,3 @@
-import re
 import typing as _
 import re as _re
 
@@ -22,9 +21,9 @@ def remove_repeated_spaces(lines: _.Iterable[str]) -> _.Generator[str, None, Non
         yield RE_SPACES.subn(' ', line)[0]
 
 
-RE_COMMENT_ONELINE = re.compile(r'<!--[^-->]*-->')
-RE_COMMENT_MULTI_OPEN = re.compile(r'<!--[^-->]*')
-RE_COMMENT_MULTI_CLOSE = re.compile(r'[^-->]*-->')
+RE_COMMENT_ONELINE = _re.compile(r'<!--[^-->]*-->')
+RE_COMMENT_MULTI_OPEN = _re.compile(r'<!--[^-->]*')
+RE_COMMENT_MULTI_CLOSE = _re.compile(r'[^-->]*-->')
 
 
 def remove_comments(lines: _.Iterable[str]) -> _.Generator[str, None, None]:
